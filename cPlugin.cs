@@ -34,7 +34,7 @@ namespace ETABSPluginBoilerPlate
             }
         }
 
-        // return value should be 0 if successful
+        
         public int Info(ref string txt)
         {
             try
@@ -50,7 +50,7 @@ namespace ETABSPluginBoilerPlate
             return 0;
         }
 
-        //Deconstructor to clean up
+        
         ~cPlugin()
         {
             Console.WriteLine(GC.GetGeneration(0));
